@@ -21,9 +21,6 @@ Python 3.11
 ## IDE
 
  - Visual Studio Community 2022 (Version:- 17.7.5).
- 
-	### Required packages for VS 2022
-	- .NET Multi-platform App Ul development ([Installation Procedure](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/install)).
 
 ## Git
 
