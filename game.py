@@ -15,3 +15,13 @@ pygame.display.set_caption("Ping Pong Game")
 ball = pygame.Rect( 2 - 15, 2 - 15, 30, 30)
 player = pygame.Rect( - 20, 2 - 60, 10, 120)
 opponent = pygame.Rect(10, 2 - 60, 10, 120)
+
+ball_speed_x = BALL_SPEED * random.choice((1, -1))
+ball_speed_y = BALL_SPEED * random.choice((1, -1))
+
+player_speed = 0
+opponent_speed = 5
+
+player_score = 0
+opponent_score = 0
+font = pygame.font.Font(None, 36)
