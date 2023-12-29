@@ -25,3 +25,23 @@ opponent_speed = 5
 player_score = 0
 opponent_score = 0
 font = pygame.font.Font(None, 36)
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            quit()
+
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_DOWN:
+                player_speed = PADDLE_SPEED
+            if event.key == pygame.K_UP:
+                player_speed = -PADDLE_SPEED
+
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_DOWN or event.key == pygame.K_UP:
+                player_speed = 0
+
+    ball.x += ball_speed_x
+    ball.y += ball_speed_y
+    player.y += player_speed
