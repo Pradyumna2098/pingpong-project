@@ -1,4 +1,4 @@
-# ping pong-project
+# Ping pong-project
 This project is a simple ping-pong game.
 There are two players in the game one of them is AI.
 A game with two paddles and a ball where the ball shouldn't fall off the paddle if so the player looses a point.
@@ -17,6 +17,22 @@ Python 3.11
 -The game can be quit at any time.
 
 -A paddle is provided to both players to control the ball.
+
+## IDE
+
+ - Visual Studio Community 2022 (Version:- 17.7.5).
+ 
+	### Required packages for VS 2022
+	- .NET Multi-platform App Ul development ([Installation Procedure](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/install)).
+
+## Git
+
+GitHub is used for maintaining ticket systems and PRs
+- [Github board](https://github.com/users/chethandvg/projects/1)
+- [Commit history](https://github.com/chethandvg/tenant-management/pulls)
+
+### GUI Git Client
+	- [Sourcetree](https://www.sourcetreeapp.com/) was used to make the git operation much simpler and also to get an easy view of previous git operations via various branches.
 
 # Stats
 ![Alt](https://repobeats.axiom.co/api/embed/b559d2e40001492d162da609caa0a9dcfd1b832c.svg "Repobeats analytics image")
