@@ -1,7 +1,7 @@
 # Ping pong-project
 This project is a simple ping-pong game.
 There are two players in the game one of them is AI.
-A game with two paddles and a ball where the ball shouldn't fall off the paddle if so the player looses a point.
+A game with two paddles and a ball where the ball shouldn't fall off the paddle if so the player loses a point.
 The scores are awarded accordingly.
 
 # Tech-Stack
@@ -28,11 +28,7 @@ Python 3.11
 ## Git
 
 GitHub is used for maintaining ticket systems and PRs
-- [Github board](https://github.com/users/chethandvg/projects/1)
-- [Commit history](https://github.com/chethandvg/tenant-management/pulls)
-
-### GUI Git Client
-	- [Sourcetree](https://www.sourcetreeapp.com/) was used to make the git operation much simpler and also to get an easy view of previous git operations via various branches.
+- [Github board](https://github.com/Pradyumna2098/pingpong-project)
 
 # Stats
 ![Alt](https://repobeats.axiom.co/api/embed/b559d2e40001492d162da609caa0a9dcfd1b832c.svg "Repobeats analytics image")
