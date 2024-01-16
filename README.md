@@ -1,4 +1,4 @@
-![Logo](https://drive.google.com/uc?id=1MJtQjj8EHs8qJh-RcTQhHfD1kcaTnQEK)
+![Logo](https://opengameart.org/sites/default/files/idle__000.png)
 # Ping pong-project
 This project is a simple ping-pong game.
 There are two players in the game one of them is AI.
