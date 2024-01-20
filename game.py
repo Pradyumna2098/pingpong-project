@@ -72,5 +72,22 @@ while True:
         ball = pygame.Rect(WIDTH // 2 - 15, HEIGHT // 2 - 15, 30, 30)
         ball_speed_x *= random.choice((1, -1))
         ball_speed_y *= random.choice((1, -1))
+        
+    if opponent.top < ball.y:
+        opponent.y += opponent_speed
+    if opponent.bottom > ball.y:
+        opponent.y -= opponent_speed
 
-  
+    screen.fill((0, 0, 0))
+    pygame.draw.rect(screen, WHITE, player)
+    pygame.draw.rect(screen, WHITE, opponent)
+    pygame.draw.ellipse(screen, WHITE, ball)
+    pygame.draw.line(screen, WHITE, (WIDTH // 2, 0), (WIDTH // 2, HEIGHT), 1)
+
+    player_text = font.render(str(player_score), True, WHITE)
+    opponent_text = font.render(str(opponent_score), True, WHITE)
+    screen.blit(player_text, (WIDTH // 4, 50))
+    screen.blit(opponent_text, (3 * WIDTH // 4 - 30, 50))
+
+    pygame.display.flip()
+
