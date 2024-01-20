@@ -1,4 +1,4 @@
-![Logo](https://www.vectorgraphit.com/wp-content/uploads/2014/11/pingpong-preview.jpg)
+![Logo](https://i.pinimg.com/1200x/2c/d2/44/2cd244d545e8ce5c263bf5ba90ff7f79.jpg)
 
 
 # Ping pong-project
