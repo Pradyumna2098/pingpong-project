@@ -1,40 +1,40 @@
 import pygame
 import random
 
-# Initialize Pygame
+
 pygame.init()
 
-# Constants
+
 WIDTH, HEIGHT = 800, 600
 BALL_SPEED = 1
-PADDLE_SPEED = 5
+PADDLE_SPEED = 3
 
-# Colors
+
 WHITE = (255, 255, 255)
 
-# Create the screen
+
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Ping Pong Game")
 
-# Ball and paddles
+
 ball = pygame.Rect(WIDTH // 2 - 15, HEIGHT // 2 - 15, 30, 30)
 player = pygame.Rect(WIDTH - 20, HEIGHT // 2 - 60, 10, 120)
 opponent = pygame.Rect(10, HEIGHT // 2 - 60, 10, 120)
 
-# Ball movement
+
 ball_speed_x = BALL_SPEED * random.choice((1, -1))
 ball_speed_y = BALL_SPEED * random.choice((1, -1))
 
-# Paddle movement
+
 player_speed = 0
 opponent_speed = 5
 
-# Score variables
+
 player_score = 0
 opponent_score = 0
 font = pygame.font.Font(None, 36)
 
-# Main game loop
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -69,10 +69,14 @@ while True:
 
     if ball.right >= WIDTH:
         opponent_score += 1
+        if opponent_score == 20:
+            print("Opponent wins!")
+            pygame.quit()
+            quit()
         ball = pygame.Rect(WIDTH // 2 - 15, HEIGHT // 2 - 15, 30, 30)
         ball_speed_x *= random.choice((1, -1))
         ball_speed_y *= random.choice((1, -1))
-        
+
     if opponent.top < ball.y:
         opponent.y += opponent_speed
     if opponent.bottom > ball.y:
@@ -90,4 +94,3 @@ while True:
     screen.blit(opponent_text, (3 * WIDTH // 4 - 30, 50))
 
     pygame.display.flip()
-
