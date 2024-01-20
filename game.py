@@ -55,6 +55,8 @@ while True:
     ball.y += ball_speed_y
     player.y += player_speed
 
+    player.y = max(0, min(player.y, HEIGHT - player.height))
+
     if ball.top <= 0 or ball.bottom >= HEIGHT:
         ball_speed_y *= -1
 
@@ -63,6 +65,10 @@ while True:
 
     if ball.left <= 0:
         player_score += 1
+        if player_score == 20:
+            print("Player wins!")
+            pygame.quit()
+            quit()
         ball = pygame.Rect(WIDTH // 2 - 15, HEIGHT // 2 - 15, 30, 30)
         ball_speed_x *= random.choice((1, -1))
         ball_speed_y *= random.choice((1, -1))
