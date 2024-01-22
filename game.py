@@ -1,7 +1,6 @@
 import pygame
 import random
 
-
 pygame.init()
 
 
@@ -9,26 +8,20 @@ WIDTH, HEIGHT = 800, 600
 BALL_SPEED = 1
 PADDLE_SPEED = 3
 
-
 WHITE = (255, 255, 255)
-
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Ping Pong Game")
-
 
 ball = pygame.Rect(WIDTH // 2 - 15, HEIGHT // 2 - 15, 30, 30)
 player = pygame.Rect(WIDTH - 20, HEIGHT // 2 - 60, 10, 120)
 opponent = pygame.Rect(10, HEIGHT // 2 - 60, 10, 120)
 
-
 ball_speed_x = BALL_SPEED * random.choice((1, -1))
 ball_speed_y = BALL_SPEED * random.choice((1, -1))
 
-
 player_speed = 0
 opponent_speed = 5
-
 
 player_score = 0
 opponent_score = 0
