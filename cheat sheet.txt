@@ -1,0 +1,14 @@
+Clean Code Development
+
+1)Use proper explanatory names for defining variables.
+2)Use empty lines between the code for better readability.
+3)Use unit tests and practice Test Driven Development.
+4)Create descriptive messages while committing.
+5)Good commenting important lines in the code grabs the intrest of others viewing code.
+6)Error handling -> throw proper exeptions
+7)Functions should do one thing and be named uniqely.
+8)Do not add more than 3 parameters in a function.
+9)Use parameter and return types in functions and classes.
+10)Code refactoring when ever needed.
+11)Note the versions control of what is being used in the project.
+12)Intoduce your own CI/CD pipelines for the project for better understanding.
