@@ -23,48 +23,17 @@ Python 3.11
 
 -A paddle is provided to both players to control the ball.
 
+# Metrics
 
-# Requirements
-***The player must have access to control the movements of the paddle.**
-
-   1)The right paddle should move up when the up arrow key is pressed.
-
-   2)The right paddle should move down when the down arrow key is pressed.
-   
-   3)The right paddle should not move beyond the top and bottom boundaries of the game window.
-
-***The ball should move in the game-bound range.**
-
-   1)The ball should bounce off the top and bottom walls.
-    
-   2)The ball should bounce off the paddles.
-
-***The game has to identify when the ball touches the boundary or the paddle to calculate a score.**
-
-   1)The game should recognize when the ball passes the left or right boundary.
-
-   2)If the ball goes out of bounds on the right (player's side), the opponent scores a point.
-   
-   3)If the ball goes out of bounds on the left (opponent's side), the player scores a point.
-
-   4)The game ends when either the player or the opponent reaches a score of 20.
-
-   5)The score should be updated accordingly.
- 
-***The scores should be calculated and displayed on the screen.**
-
-   1)The score should be visible to players during the game.
-
-   2)The game window is filled with a black background.
-
-   3)Paddles and the ball are drawn using Pygame functions.
-
-***The game has to end when either of the players wins.**
-
-   1)The game should end when one player reaches a specified score limit.
-
-   2)The winner should be declared.
-
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Pradyumna2098_pingpong-project)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
 
 ## IDE
 
