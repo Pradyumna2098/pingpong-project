@@ -17,3 +17,15 @@ Python 3.11
 -The game can be quit at any time.
 
 -A paddle is provided to both players to control the ball.
+
+# Metrics
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Pradyumna2098_pingpong-project&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Pradyumna2098_pingpong-project)](https://sonarcloud.io/summary/new_code?id=Pradyumna2098_pingpong-project)
