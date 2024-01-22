@@ -68,6 +68,8 @@ Writing UnitTests to keep the correctness and desired functionality of the progr
 
 &rarr; [Find Test Here](https://github.com/Pradyumna2098/pingpong-project/blob/main/test.py)
 
+&rarr; [Find Test Here](https://github.com/Pradyumna2098/pingpong-project/blob/main/test2.py)
+
 ## Build
 
 Use Pybuilder to build Projects and can install and import as a package for usage in other projects.
