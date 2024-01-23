@@ -44,7 +44,7 @@ UML Diagram created with Draw.io
 
 DDD diagram created using Miro board
 
-&rarr; [Find Diagram Here]
+&rarr; [Find Diagram Here](https://github.com/Pradyumna2098/pingpong-project/tree/main/DDD)
 
 ## IDE
 
@@ -99,6 +99,8 @@ Cheat Sheet for other projects:
 &rarr; [functions as parameters and return values](https://github.com/Pradyumna2098/pingpong-project/blob/main/test2.py#L49)
 
 ## Requirement engineering
+
+-[Game Requirements](https://github.com/Pradyumna2098/pingpong-project/blob/main/GameRequirements.txt)
 
 - [Github project](https://github.com/users/Pradyumna2098/projects/4)
 
