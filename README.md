@@ -44,7 +44,7 @@ UML Diagram created with Draw.io
 
 DDD diagram created using Miro board
 
-&rarr; [Find Diagram Here]
+&rarr; [Find Diagram Here](https://github.com/Pradyumna2098/pingpong-project/tree/main/DDD)
 
 ## IDE
 
