@@ -100,6 +100,8 @@ Cheat Sheet for other projects:
 
 ## Requirement engineering
 
+-[Game Requirements](https://github.com/Pradyumna2098/pingpong-project/blob/main/GameRequirements.txt)
+
 - [Github project](https://github.com/users/Pradyumna2098/projects/4)
 
 - [JIRA project](https://pradyumnaswara.atlassian.net/jira/software/projects/PINGPONG/boards/1)
