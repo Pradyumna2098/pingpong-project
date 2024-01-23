@@ -1,0 +1,85 @@
+
+Ping Pong game is a simple two-player implementation using Pygame for graphical rendering.
+The objective is to provide a recreational and interactive gaming experience.
+
+Code Structure:-
+
+->Initialization:
+
+*Imports for necessary libraries.
+*Defining game constants.
+
+->Game Components:-
+
+->Ball:
+
+*Represented in the rectangle, initialized at the center with a random speed and direction.
+*Bounces off walls, paddles, and triggers scoring events.
+
+->Paddles:
+
+*Player-controlled paddle and computer-controlled paddle.
+*Paddle movement based on user input and simple AI for the opponent's paddle.
+
+->Game Loop:
+
+*Should run in an infinite loop to continuously update and render the game state.
+*Handles events and updates positions of the ball and paddles.
+*Implements collision detection and scoring logic.
+
+->Rendering:
+
+*Utilizes Pygame functions to draw rectangles, an ellipse, and lines.
+*Rendering scores using a defined font.
+
+->Game Logic:-
+
+->Collision Detection:
+
+*Determines collisions between the ball and walls, player paddle, and opponent paddle.
+*Updates the ball's speed and direction accordingly.
+
+->Scoring:
+
+*Tracks scores for both players.
+*Ends the game if either player reaches a predefined score limit (20).
+
+->User Input:
+
+*Listens for keyboard events to control the player's paddle movement.
+*Up and down arrow keys adjust the paddle position.
+
+->Graphics and UI:
+
+*Usage simple geometric shapes and a monochromatic color scheme.
+*Displays player scores on the screen.
+*Lacks advanced graphics as the design is minimal.
+
+->Limitations and can be done enhancements:
+
+*The game features and graphics,is just suitable for a basic gameplay.
+*Sound effects and music can be introduced to make game more intresting.
+*Basic opponent AI can be improvised with adaptive behavior.
+
+->Sonar Cloud Integration:
+
+*SonarCloud integration for continuous code quality checks, providing insights into project metrics.
+*These requirements ensure effective patient data management, convenient development workflows, and a focus on code quality throughout the development process.
+
+->Testing:
+
+Creating some tests for the project lets us know whether the functionality and correctness of the code is working right or not.
+
+->Functional Programming:
+
+Functional programming can lead to code that is concise, modular, and easier to reason about, especially in scenarios where parallelism and concurrency are crucial.
+The key principles of functional programming include:
+
+*Immutability.
+*Pure functions.
+*Use of higher order functions.
+*Referential transparency.
+*Declarative programming.
+*Recursion.
+*Lazy evaluation.
+*Pattern matching.
