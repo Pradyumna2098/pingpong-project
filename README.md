@@ -20,6 +20,32 @@ Python 3.11
 
 -A paddle is provided to both players to control the ball.
 
+## IDE
+
+ - Visual Studio Community 2022 (Version:- 17.7.5).
+   
+Some shortcuts for faster coding!
+
+```ctrl + c ```(Copy)
+
+```ctrl + v ```(Paste)
+
+```ctrl + x ```(Cut)
+
+```ctrl + shift + B```(Compile and build solution)
+
+```ctrl + F5```(Build and deploy)
+
+## Git
+
+&rarr; [GIT Board](https://github.com/Pradyumna2098/pingpong-project/projects?query=is%3Aopen)
+
+&rarr; [Commit History](https://github.com/Pradyumna2098/pingpong-project/pulls?q=is%3Apr+is%3Aclosed)
+
+   # Stats
+   
+   ![Alt](https://repobeats.axiom.co/api/embed/b559d2e40001492d162da609caa0a9dcfd1b832c.svg "Repobeats analytics image")
+
 # Metrics
 
 Creation of SonarCloud account and connecting to the repository for metric badges:
@@ -46,22 +72,6 @@ DDD diagram created using Miro board
 
 &rarr; [Find Diagram Here](https://github.com/Pradyumna2098/pingpong-project/tree/main/DDD)
 
-## IDE
-
- - Visual Studio Community 2022 (Version:- 17.7.5).
-   
-Some shortcuts for faster coding!
-
--```ctrl + c ```(Copy)
-
--```ctrl + v ```(Paste)
-
--```ctrl + x ```(Cut)
-
--```ctrl + shift + B```(Compile and build solution)
-
--```ctrl + F5```(Build and deploy)
-
 ## Testing
 
 Writing UnitTests to keep the correctness and desired functionality of the program.
@@ -74,7 +84,10 @@ Writing UnitTests to keep the correctness and desired functionality of the progr
 
 Use Pybuilder to build Projects and can install and import as a package for usage in other projects.
 
-&rarr; [Find Build Here](https://github.com/Pradyumna2098/pingpong-project/blob/main/build.py)
+&rarr; [Find Program Build Here](https://github.com/Pradyumna2098/pingpong-project/blob/main/build.py)
+
+&rarr; [Find Project Build Here](https://github.com/Pradyumna2098/pingpong-project/blob/main/.github/workflows/python-package.yml)
+
 
 ## Clean code development
 
@@ -100,11 +113,21 @@ Cheat Sheet for other projects:
 
 ## Requirement engineering
 
--[Game Requirements](https://github.com/Pradyumna2098/pingpong-project/blob/main/GameRequirements.txt)
+- [Game Requirements](https://github.com/Pradyumna2098/pingpong-project/blob/main/GameRequirements.txt)
 
 - [Github project](https://github.com/users/Pradyumna2098/projects/4)
 
 - [JIRA project](https://pradyumnaswara.atlassian.net/jira/software/projects/PINGPONG/boards/1)
 
-# Stats
-![Alt](https://repobeats.axiom.co/api/embed/b559d2e40001492d162da609caa0a9dcfd1b832c.svg "Repobeats analytics image")
+## Analysis
+
+Checklist to standardize analysis for this startup project in the future:
+- [x] (Goals and Objectives)
+- [x] (Interactive GUI)
+- [x] (Technical upgrades)
+- [x] (Technical Resource Requirement)
+- [x] (Risk Assessment)
+- [x] (Timeline)
+- [x] (Security)
+
+&rarr; [Analysis Report](https://github.com/Pradyumna2098/pingpong-project/blob/main/Analysis%20report.txt)
